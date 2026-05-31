@@ -1,1 +1,42 @@
-// app global css in SCSS form
+@import 'tailwindcss';
+
+/* Custom CSS lu tetep di bawah sini */
+@font-face {
+  font-family: 'A Casual Handwritten Pen';
+  src: url('~assets/fonts/A.Casual.Handwritten.Pen.Noncommercial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Edoms Handwriting Normal';
+  src: url('~assets/fonts/EDOMHN__.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kempton Demo Handwriting';
+  src: url('~assets/fonts/KemptonDemoHandwritting.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QE Braden Hill';
+  src: url('~assets/fonts/QEBradenHill.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QE Dave Mergens';
+  src: url('~assets/fonts/QEDaveMergens.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QE David Reid';
+  src: url('~assets/fonts/QEDavidReid.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QE Sam Roberts 2';
+  src: url('~assets/fonts/QESamRoberts2.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QE Tony Flores';
+  src: url('~assets/fonts/QETonyFlores.ttf') format('truetype');
+}

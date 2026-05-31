@@ -13,6 +13,11 @@ export default defineConfig((/* ctx */) => {
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
     boot: ['axios'],
 
+    // 🔥 FIX: NAMA TAB BROWSER LU OTOMATIS BERUBAH GAGAH DI SINI!
+    htmlVariables: {
+      title: 'Bethsbot - Bot Nulis Online',
+    },
+
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#css
     css: ['app.scss'],
 
